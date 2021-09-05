@@ -42,8 +42,8 @@ d) Payoff = max(S(T) - K1, 0) + max(S(T) - K2, 0) - 2 \* max(S(T) - K, 0)
 a) Puede comprarse 100 acciones, sino puede comprar 94 opciones call
 
 b)
-GananciaAcciones = 100 _ (S(T) - 94)
-GananciaCall = 94 _ max(S(T) - 95, 0) - 441.8
+GananciaAcciones = 100 - (S(T) - 94)
+GananciaCall = 94 - max(S(T) - 95, 0) - 441.8
 
 c) Las acciones tienen que subir hasta 99.7
 
