@@ -56,4 +56,17 @@ b) ????
 
 ## Ejercicio 8
 
+Le conviene ser long en una opcion put
+
+Payoff = S(T) + max(K - S(T), 0)
+
+Si el precio es mayor a K, entonces no vende y se queda con S(T)
+Sino, el precio bajo, y entonces vende a K cada accion
+
 ## Ejercicio 9
+
+a) Al chabon le conviene comprar todas las calls que pueda, e inmediatamente vender la misma cantidad de libras por forward a 180 dias.
+
+Va a terminar pagando 1.59 dolares cada libra, y recibir 1.6018 por cada libra luego. Es decir, 0.118 de ganancia por libra
+
+b) En este caso le conviene comprar por forward todas las libras que pueda a 90 dias. Luego comprar la misma cantidad de opciones put para venderlas a 1.64 cada una. En total, la ganancia es de 1.64 - 0.02 - 1.6056 = 0.0144 por libra que compre
